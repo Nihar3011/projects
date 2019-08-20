@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Students</h2>
+  <span *ngFor="let student of students;let i = index" >
+          <app-showstudent [student]="student" (deleteData)="delete($event)"></app-showstudent>
+  </span>
+</div>
+
+

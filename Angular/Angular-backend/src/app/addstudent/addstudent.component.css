@@ -1,0 +1,9 @@
+/* When the pattern is matched */
+input[type=text]:valid {
+  color: green;
+}
+
+/* Unmatched */
+input[type=text]:invalid {
+  color: red;
+}

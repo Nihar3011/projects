@@ -1,0 +1,197 @@
+{
+  "students":[{"id":1,"rollno" : 150170107080, "name" :  " Nihar" , "name1" :  " Nihar" , "gender" :  " male" , "mobile" : "9714319500"},
+  {"id":2,"rollno" : 150170107054, "name" : " Nikunj" , "name1" :  " Nihar" , "gender" : " male" , "mobile" : "9714319501"},
+  {"id":3,"rollno" : 150170107035, "name" : " Priyam" , "name1" :  " Nihar", "gender" : " male" , "mobile" : "9714319502"},
+  {"id":4,"rollno" : 150170107019, "name" :  " Abhi"  , "name1" :  " Nihar", "gender" : " male" , "mobile" : "9714319503"}]
+}
+
+
+ url = 'http://localhost:3000/students';
+  getStudents(): Observable<Student[]> {
+    return this.http.get<Student[]>(this.url);
+
+
+      <div class="row">
+    <div class="col-md-3">{{value.rollno}}</div>
+    <div class="col-md-3">{{value.name}} {{value.name1}}</div>
+    <div class="col-md-3">{{value.gender}}</div>
+    <div class="col-md-3">{{value.mobile}}</div>
+  </div>
+
+  @Input('value') value: Student;
+
+
+  export class Student {
+  id: number;
+  rollno: number;
+  name: string;
+  name1: string;
+  gender: string;
+  mobile: number;
+}
+
+
+{
+  "students": [
+    {
+      "rollno": "2132323",
+      "name": "wewe",
+      "name1": "wewewe",
+      "gender": "female",
+      "mobile": "9714319502",
+      "id": 6
+    },
+    {
+      "rollno": "2123232",
+      "name": "wewew",
+      "name1": "wewewewewewe",
+      "gender": "male",
+      "mobile": "9714319500",
+      "id": 7
+    },
+    {
+      "rollno": "232323",
+      "name": "wewe",
+      "name1": "wewe",
+      "gender": "male",
+      "mobile": "9555555555",
+      "id": 8
+    },
+    {
+      "rollno": "2323232",
+      "name": "wasdsadas",
+      "name1": "asdasd",
+      "gender": "male",
+      "mobile": "9714319502",
+      "id": 9
+    },
+    {
+      "rollno": "1212323",
+      "name": "wewe",
+      "name1": "patel",
+      "gender": "male",
+      "mobile": "9714319500",
+      "id": 10
+    },
+    {
+      "rollno": "2132323",
+      "name": "wewe",
+      "name1": "wewewe",
+      "gender": "female",
+      "mobile": "9714319502",
+      "id": 12
+    },
+    {
+      "rollno": "2123232",
+      "name": "wewew",
+      "name1": "wewewewewewe",
+      "gender": "male",
+      "mobile": "9714319500",
+      "id": 13
+    },
+    {
+      "rollno": "232323",
+      "name": "wewe",
+      "name1": "wewe",
+      "gender": "male",
+      "mobile": "9555555555",
+      "id": 14
+    },
+    {
+      "rollno": "2323232",
+      "name": "wasdsadas",
+      "name1": "asdasd",
+      "gender": "male",
+      "mobile": "9714319502",
+      "id": 15
+    },
+    {
+      "rollno": "1212323",
+      "name": "wewe",
+      "name1": "patel",
+      "gender": "male",
+      "mobile": "9714319500",
+      "id": 16
+    },
+    {
+      "rollno": "2132323",
+      "name": "wewe",
+      "name1": "wewewe",
+      "gender": "female",
+      "mobile": "9714319502",
+      "id": 17
+    },
+    {
+      "rollno": "2123232",
+      "name": "wewew",
+      "name1": "wewewewewewe",
+      "gender": "male",
+      "mobile": "9714319500",
+      "id": 18
+    },
+    {
+      "rollno": "232323",
+      "name": "wewe",
+      "name1": "wewe",
+      "gender": "male",
+      "mobile": "9555555555",
+      "id": 19
+    },
+    {
+      "rollno": "2323232",
+      "name": "wasdsadas",
+      "name1": "asdasd",
+      "gender": "male",
+      "mobile": "9714319502",
+      "id": 20
+    },
+    {
+      "rollno": "1212323",
+      "name": "wewe",
+      "name1": "patel",
+      "gender": "male",
+      "mobile": "9714319500",
+      "id": 21
+    },
+    {
+      "rollno": "2132323",
+      "name": "wewe",
+      "name1": "wewewe",
+      "gender": "female",
+      "mobile": "9714319502",
+      "id": 22
+    },
+    {
+      "rollno": "2123232",
+      "name": "wewew",
+      "name1": "wewewewewewe",
+      "gender": "male",
+      "mobile": "9714319500",
+      "id": 23
+    },
+    {
+      "rollno": "232323",
+      "name": "wewe",
+      "name1": "wewe",
+      "gender": "male",
+      "mobile": "9555555555",
+      "id": 24
+    },
+    {
+      "rollno": "2323232",
+      "name": "wasdsadas",
+      "name1": "asdasd",
+      "gender": "male",
+      "mobile": "9714319502",
+      "id": 25
+    },
+    {
+      "rollno": "1212323",
+      "name": "wewe",
+      "name1": "patel",
+      "gender": "male",
+      "mobile": "9714319500",
+      "id": 26
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+body{
+	background-color: #AAD7D2;
+	color: #000;
+	font-family: Arial,helverica,sans-serif;
+	font-size:16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ /*Navbar css starts*/
+#navbar{
+	display: flex;
+	padding: 10px 15px 0px 15px;
+	background-color: #1E1E26;
+	color:#fff;
+}
+#navbar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+	padding-right: 15px;
+
+}
+.compny{
+	float: left;
+	width: 60%;
+	line-height: 1.2em;
+}
+.nav-bar{
+	float: right;
+	width: 40%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.compny .image{
+	float: left;
+
+}
+.compny .compny-name{
+	font-weight: 700;
+}
+.compny .about{
+	color: #e0e0e0cc;
+}
+
+.nav-bar .login{
+	background-color: #454D5A;
+	padding: 10px;
+	font-weight: 700;
+	border-radius: 5px;
+}
+.nav-bar .sign-up{
+	background-color: #40D279;
+	padding: 10px;
+	font-weight: 700;
+	color: #000 !important;
+	border-radius: 5px;
+}
+
+.nav-bar .fork{
+	padding: 7px;
+	font-weight: 700;
+	border: 3px #454D5A solid;
+	border-radius: 5px;
+
+}
+/*Navbar css End*/
+
+/*main-header css starts*/
+#main-header{
+	color: #000;
+}
+
+.menu{
+	padding: 10px;
+}
+
+.heading{
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: 700;
+	font-size: 27px;
+}
+/*main-header css End*/
+
+/*form-section css starts*/
+#form-section{
+	width: 60%;
+	margin: auto;
+	overflow: hidden;
+	background-color: #fff;
+	margin-top: 10px;
+	color:#585252f0;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.center{
+	text-align: center;
+	margin-top: 20px;
+}
+.left{
+	width: 45%;
+	float:left;
+	text-align: right;
+}
+.right{
+	margin-left: 10px;
+	width: 55%;
+	float: right;
+}
+.survey-from .form-group{
+	margin: 10px;
+
+}
+
+.survey-from .d-flex{
+	display: flex;
+}
+.survey-from input[type="text"]{
+	padding: 4px ;
+border-radius: 5px !important;
+}
+.survey-from input[type="email"]{
+	padding: 4px !important;
+	border-radius: 5px !important;
+}
+.survey-from input[type="number"]{
+	padding: 4px ;
+	border-radius: 5px !important;
+}
+.survey-from input[type="submit"]{
+	padding: 10px ;
+	color: #fff;
+	font-weight: 700;
+	font-size: 15px;
+	border-radius: 5px !important;
+	background-color: #57AEE8;
+}
+.survey-from select{
+	padding: 4px ;
+	border-radius: 5px !important;
+	color:#585252f0;
+}
+.btn-submit{
+	text-align: center;
+	display: block !important;
+}
+
+/*form-section css End*/

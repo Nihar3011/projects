@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey From</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+
+</head>
+<body>
+	<!-- navbar starts-->
+	<nav id="navbar">
+		<div class="compny">
+			<div class="image"><img src="https://cdn0.iconfinder.com/data/icons/basic-outline/64/icon-basic-set_59-cube-512.png" width="45px"></div><span class="compny-name">FCC:Survey Form</span>
+			<div><small class="about">A PEN BY </small><small>freeCodeCamp</small></div>
+			<!-- <div class="compny-name">
+				<span>My Comp</span>
+			</div> -->
+		</div>
+		<div class="nav-bar">
+			<ul>
+				<li><a href="#" class="fork">Love</a></li>
+				<li><a href="#" class="fork">Fork</a></li>
+				<li><a href="#" class="login"> Change View</a></li>
+				<li><a href="#" class="sign-up">Sign Up</a></li>
+				<li><a href="#" class="login" >Login</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- navbar Ends-->
+	<!-- main-header starts-->
+	<header id="main-header">
+		<div class="menu"><a href="#">
+			<img src="./images/menu.png" width="21px"></a>
+		</div>
+
+		<div class="heading">
+			<span>Survey From</span>
+		</div>
+	</header>
+	<!-- main-header Ends-->
+
+	<section id="form-section">
+		<div class="center"><span >Let us know how we can improve freeCodeCamp</span></div>
+		<form class="survey-from">
+			<div class="form-group d-flex">
+				<div class="left">
+				<label for="name"><sup>*</sup>Name :</label>
+				</div>
+				<div class="right">
+				<input  type="text" name="name" placeholder="Enter Your Name">
+				</div>
+			</div>
+			<div class="form-group d-flex ">
+				<div class="left">
+				<label for="email"><sup>*</sup>Email :</label>
+				</div>
+				<div class="right">
+				<input  type="text" name="email" placeholder="Enter Your Email">
+				</div>
+			</div>
+			<div class="form-group d-flex">
+				<div class="left">
+				<label for="age"><sup>*</sup>Age :</label>
+				</div>
+				<div class="right">
+				<input type="number" name="age"
+				placeholder="Enter Your age">
+				</div>
+			</div>
+			<div class="form-group d-flex">
+				<div class="left">
+				<label for="role">Which option best describes your current role?</label>
+				</div>
+				<div class="right">
+				<select name="role">
+					<option>Student</option>
+					<option>Employee</option>
+					<option>other</option>
+				</select>
+				</div>
+			</div>
+			<div class="form-group d-flex">
+				<div class="left">
+				<label for="recommend"><sup>*</sup>How likely is that you would recommend freeCodeCamp to a friend?</label>
+				</div>
+				<div class="right">
+				 <input type="radio" name="recommend" value="Definitely" checked> Definitely<br>
+  <input type="radio" name="recommend" value="Maybe"> Maybe<br>
+  <input type="radio" name="recommend" value="Not sure"> Not sure  
+				</div>
+			</div>
+
+			<div class="form-group d-flex">
+				<div class="left">
+				<label for="like">What do you ilke most in FCC</label>
+				</div>
+				<div class="right">
+				<select name="like">
+					<option>Select an option</option>
+					
+				</select>
+				</div>
+			</div>
+			<div class="form-group d-flex">
+				<div class="left">
+				<label for="improved">Things that should be improved in the future (Check all that apply)</label>
+				</div>
+				<div class="right">
+				
+				<div>
+				<input type="checkbox" name="improved" value="0">Front-end Projects
+				</div>
+				<div>
+				<input type="checkbox" name="improved" value="1"> Back-end Projects
+				</div>
+					<div>
+				<input type="checkbox" name="improved" value="2">Data Visualization
+				</div>
+					<div>
+				<input type="checkbox" name="improved" value="3"> Challenges
+				</div>
+					<div>
+				<input type="checkbox" name="improved" value="4">Open Source Community
+				</div>
+					<div>
+				<input type="checkbox" name="improved" value="5"> Gitter help rooms
+				</div>
+					<div>
+				<input type="checkbox" name="improved" value="6">Videos
+				</div>
+					<div>
+				<input type="checkbox" name="improved" value="7">City Meetups
+				</div>
+
+					<div>
+				<input type="checkbox" name="improved" value="8">Wiki
+				</div>
+
+					<div>
+				<input type="checkbox" name="improved" value="9"> Forum
+				</div>
+
+					<div>
+				<input type="checkbox" name="improved" value="10"> Additinal Courses
+				</div>
+
+
+
+
+				</div>
+			</div>
+			<div class="form-group d-flex">
+				<div class="left">
+				<label for="suggestions">Any Comments or Suggestions?</label>
+				</div>
+				<div class="right">
+				<textarea name="suggestions" placeholder="Enter your Suggestions " rows="3" ></textarea>
+				</div>
+			</div>
+		<div class="form-group d-flex btn-submit">
+			<input class="btn" type="submit" name="submit">
+		</div>
+		</form>
+	</section>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!----ul >
+  <li *ngFor="let student of students">
+    <span class="badge">{{student.rollno}}</span>
+    <span class="badge">{{student.name}}</span>
+    <span class="badge">{{student.gender}}</span>
+    <span class="badge">{{student.mobile}} </span>
+  </li>
+</ul-->
+
+<div class="container">
+  <h2>Students</h2>
+  <table class="table table-condensed">
+    <thead>
+      <tr>
+
+        <th>RollNo</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Gender</th>
+        <th>Mobile</th>
+        <th>Full Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of students;let i = index"  >
+
+        <td >{{student.rollno}}</td>
+        <td >{{student.name}}</td>
+        <td>{{student.name1}}</td>
+        <td>{{student.gender}}</td>
+        <td> +91{{student.mobile}}</td>
+        <input  appFullname [(value)]="student.name + student.name1"  >
+        <td><button (click)="onSelect(student)" >Edit</button></td>
+        <td><button  (click)="delete(i)">Delete</button></td>
+
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+<div *ngIf="selectedStudent">
+
+  <div class="from-group">
+      <div class="row">
+    <label class="col-sm-2 control-label"><div><span>RollNo:</span>{{selectedStudent.rollno}}</div></label>
+
+      </div>
+      <div class="row">
+          <label class="col-sm-2 control-label"><span>FirstName:</span></label>
+    <div class="col-md-2">
+        <input [(ngModel)]= "selectedStudent.name" type="text" placeholder="name">
+    </div>
+    <label class="col-sm-2 control-label"><span>LastName:</span></label>
+    <div class="col-md-2">
+        <input [(ngModel)]= "selectedStudent.name1" type="text" placeholder="name">
+    </div></div>
+    <div class="row">
+    <label class="col-sm-2 control-label"><span>Mobile:</span></label>
+    <div class="col-md-2">
+      <input [(ngModel)]= "selectedStudent.mobile" type="text" placeholder="name">
+  </div>
+    <div class="col-md-1">
+      <button (click)="update()" class="close" aria-label="Close">  <span aria-hidden="true">&times;</span></button>
+    </div>
+    </div>
+  </div>
+
+
+
+</div>

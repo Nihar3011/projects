@@ -1,0 +1,20 @@
+{
+  "students": [
+    {
+      "id": 3,
+      "rollno": 150170107035,
+      "name": " Priyam",
+      "name1": " Nihar",
+      "gender": " male",
+      "mobile": 9714319502
+    },
+    {
+      "id": 4,
+      "rollno": 150170107019,
+      "name": " Abhi",
+      "name1": " Nihar",
+      "gender": " male",
+      "mobile": 9714319503
+    }
+  ]
+}

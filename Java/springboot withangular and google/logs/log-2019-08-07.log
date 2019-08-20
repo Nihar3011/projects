@@ -1,0 +1,3 @@
+[restartedMain] INFO  c.a.s.C.C.CrudSpringApplication - Starting CrudSpringApplication on Argusoft-PC with PID 4733 (/home/nihar/NetBeansProjects/com.argus.springboot.withangular/target/classes started by nihar in /home/nihar/NetBeansProjects/com.argus.springboot.withangular)
+[restartedMain] INFO  c.a.s.C.C.CrudSpringApplication - No active profile set, falling back to default profiles: default
+[restartedMain] INFO  c.a.s.C.C.CrudSpringApplication - Started CrudSpringApplication in 12.792 seconds (JVM running for 14.458)

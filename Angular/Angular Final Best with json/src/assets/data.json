@@ -1,0 +1,106 @@
+{
+  "students": [
+    {
+      "name": "wewe",
+      "name1": "wewewe",
+      "gender": "female",
+      "mobile": "9714319502",
+      "id": 12
+    },
+    {
+      "name": "wewe",
+      "name1": "wewe",
+      "gender": "male",
+      "mobile": "9555555555",
+      "id": 14
+    },
+    {
+      "rollno": "2323232",
+      "name": "wasdsadas",
+      "name1": "asdasd",
+      "gender": "male",
+      "mobile": "9714319502",
+      "id": 15
+    },
+    {
+      "rollno": "1212323",
+      "name": "wewe",
+      "name1": "patel",
+      "gender": "male",
+      "mobile": "9714319500",
+      "id": 16
+    },
+    {
+      "rollno": "2132323",
+      "name": "wewe",
+      "name1": "wewewe",
+      "gender": "female",
+      "mobile": "9714319502",
+      "id": 17
+    },
+    {
+      "rollno": "2123232",
+      "name": "wewew",
+      "name1": "wewewewewewe",
+      "gender": "male",
+      "mobile": "9714319500",
+      "id": 18
+    },
+    {
+      "rollno": "232323",
+      "name": "wewe",
+      "name1": "wewe",
+      "gender": "male",
+      "mobile": "9555555555",
+      "id": 19
+    },
+    {
+      "rollno": "2323232",
+      "name": "wasdsadas",
+      "name1": "asdasd",
+      "gender": "male",
+      "mobile": "9714319502",
+      "id": 20
+    },
+    {
+      "rollno": "1212323",
+      "name": "wewe",
+      "name1": "patel",
+      "gender": "male",
+      "mobile": "9714319500",
+      "id": 21
+    },
+    {
+      "rollno": "2132323",
+      "name": "wewe",
+      "name1": "wewewe",
+      "gender": "female",
+      "mobile": "9714319502",
+      "id": 22
+    },
+    {
+      "rollno": "2123232",
+      "name": "wewew",
+      "name1": "wewewewewewe",
+      "gender": "male",
+      "mobile": "9714319500",
+      "id": 23
+    },
+    {
+      "rollno": "232323",
+      "name": "wewe",
+      "name1": "wewe",
+      "gender": "male",
+      "mobile": "9555555555",
+      "id": 24
+    },
+    {
+      "rollno": "2323232",
+      "name": "wasdsadas",
+      "name1": "asdasd",
+      "gender": "male",
+      "mobile": "9714319502",
+      "id": 25
+    }
+  ]
+}

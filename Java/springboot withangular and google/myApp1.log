@@ -1,0 +1,58 @@
+2019-02-26 18:19:57,416 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [StartupInfoLogger.java:50] Starting CrudSpringApplication on Argusoft-PC with PID 14139 (/home/nihar/NetBeansProjects/com.argus.springboot.withangular/target/classes started by nihar in /home/nihar/NetBeansProjects/com.argus.springboot.withangular)
+2019-02-26 18:19:57,417 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2019-02-26 18:19:58,503 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [StartupInfoLogger.java:59] Started CrudSpringApplication in 1.112 seconds (JVM running for 88.373)
+2019-02-26 18:20:04,525 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [StartupInfoLogger.java:50] Starting CrudSpringApplication on Argusoft-PC with PID 14305 (/home/nihar/NetBeansProjects/com.argus.springboot.withangular/target/classes started by nihar in /home/nihar/NetBeansProjects/com.argus.springboot.withangular)
+2019-02-26 18:20:04,527 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2019-02-26 18:20:08,308 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [StartupInfoLogger.java:59] Started CrudSpringApplication in 4.167 seconds (JVM running for 4.496)
+2019-02-26 18:20:15,942 INFO [http-nio-8080-exec-3] c.a.s.C.C.c.StudentRestController [StudentRestController.java:59] This is info message
+2019-02-26 18:20:15,943 WARN [http-nio-8080-exec-3] c.a.s.C.C.c.StudentRestController [StudentRestController.java:60] This is warn message
+2019-02-26 18:20:15,944 ERROR [http-nio-8080-exec-3] c.a.s.C.C.c.StudentRestController [StudentRestController.java:61] This is error message
+2019-02-26 18:21:16,371 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [StartupInfoLogger.java:50] Starting CrudSpringApplication on Argusoft-PC with PID 14305 (/home/nihar/NetBeansProjects/com.argus.springboot.withangular/target/classes started by nihar in /home/nihar/NetBeansProjects/com.argus.springboot.withangular)
+2019-02-26 18:21:16,371 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2019-02-26 18:21:17,471 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [StartupInfoLogger.java:59] Started CrudSpringApplication in 1.14 seconds (JVM running for 73.659)
+2019-02-26 18:21:30,015 INFO [http-nio-8080-exec-2] c.a.s.C.C.c.StudentRestController [StudentRestController.java:59] This is info message
+2019-02-26 18:21:30,015 WARN [http-nio-8080-exec-2] c.a.s.C.C.c.StudentRestController [StudentRestController.java:60] This is warn message
+2019-02-26 18:21:30,016 ERROR [http-nio-8080-exec-2] c.a.s.C.C.c.StudentRestController [StudentRestController.java:61] This is error message
+2019-02-26 18:22:24,168 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [StartupInfoLogger.java:50] Starting CrudSpringApplication on Argusoft-PC with PID 14305 (/home/nihar/NetBeansProjects/com.argus.springboot.withangular/target/classes started by nihar in /home/nihar/NetBeansProjects/com.argus.springboot.withangular)
+2019-02-26 18:22:24,168 DEBUG [restartedMain] c.a.s.C.C.CrudSpringApplication [StartupInfoLogger.java:53] Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-02-26 18:22:24,169 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2019-02-26 18:22:24,903 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [StartupInfoLogger.java:59] Started CrudSpringApplication in 0.758 seconds (JVM running for 141.091)
+2019-02-26 18:23:03,520 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [StartupInfoLogger.java:50] Starting CrudSpringApplication on Argusoft-PC with PID 14305 (/home/nihar/NetBeansProjects/com.argus.springboot.withangular/target/classes started by nihar in /home/nihar/NetBeansProjects/com.argus.springboot.withangular)
+2019-02-26 18:23:03,521 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2019-02-26 18:23:04,560 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [StartupInfoLogger.java:59] Started CrudSpringApplication in 1.055 seconds (JVM running for 180.748)
+2019-02-26 18:23:09,358 INFO [http-nio-8080-exec-2] c.a.s.C.C.c.StudentRestController [StudentRestController.java:59] This is info message
+2019-02-26 18:23:09,367 WARN [http-nio-8080-exec-2] c.a.s.C.C.c.StudentRestController [StudentRestController.java:60] This is warn message
+2019-02-26 18:23:09,367 ERROR [http-nio-8080-exec-2] c.a.s.C.C.c.StudentRestController [StudentRestController.java:61] This is error message
+2019-02-26 18:23:20,166 INFO [http-nio-8080-exec-3] c.a.s.C.C.c.StudentRestController [StudentRestController.java:59] This is info message
+2019-02-26 18:23:20,166 WARN [http-nio-8080-exec-3] c.a.s.C.C.c.StudentRestController [StudentRestController.java:60] This is warn message
+2019-02-26 18:23:20,169 ERROR [http-nio-8080-exec-3] c.a.s.C.C.c.StudentRestController [StudentRestController.java:61] This is error message
+2019-02-26 18:23:20,611 INFO [http-nio-8080-exec-4] c.a.s.C.C.c.StudentRestController [StudentRestController.java:59] This is info message
+2019-02-26 18:23:20,612 WARN [http-nio-8080-exec-4] c.a.s.C.C.c.StudentRestController [StudentRestController.java:60] This is warn message
+2019-02-26 18:23:20,612 ERROR [http-nio-8080-exec-4] c.a.s.C.C.c.StudentRestController [StudentRestController.java:61] This is error message
+2019-02-26 18:23:21,033 INFO [http-nio-8080-exec-5] c.a.s.C.C.c.StudentRestController [StudentRestController.java:59] This is info message
+2019-02-26 18:23:21,034 WARN [http-nio-8080-exec-5] c.a.s.C.C.c.StudentRestController [StudentRestController.java:60] This is warn message
+2019-02-26 18:23:21,038 ERROR [http-nio-8080-exec-5] c.a.s.C.C.c.StudentRestController [StudentRestController.java:61] This is error message
+2019-02-26 18:23:23,366 INFO [http-nio-8080-exec-6] c.a.s.C.C.c.StudentRestController [StudentRestController.java:59] This is info message
+2019-02-26 18:23:23,366 WARN [http-nio-8080-exec-6] c.a.s.C.C.c.StudentRestController [StudentRestController.java:60] This is warn message
+2019-02-26 18:23:23,367 ERROR [http-nio-8080-exec-6] c.a.s.C.C.c.StudentRestController [StudentRestController.java:61] This is error message
+2019-02-26 18:23:38,983 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [StartupInfoLogger.java:50] Starting CrudSpringApplication on Argusoft-PC with PID 14598 (/home/nihar/NetBeansProjects/com.argus.springboot.withangular/target/classes started by nihar in /home/nihar/NetBeansProjects/com.argus.springboot.withangular)
+2019-02-26 18:23:38,985 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2019-02-26 18:23:43,177 INFO [restartedMain] c.a.s.C.C.CrudSpringApplication [StartupInfoLogger.java:59] Started CrudSpringApplication in 4.612 seconds (JVM running for 4.922)
+2019-02-26 18:32:31,656 INFO [http-nio-8080-exec-2] c.a.s.C.C.c.StudentRestController [StudentRestController.java:59] This is info message
+2019-02-26 18:32:31,657 WARN [http-nio-8080-exec-2] c.a.s.C.C.c.StudentRestController [StudentRestController.java:60] This is warn message
+2019-02-26 18:32:31,657 ERROR [http-nio-8080-exec-2] c.a.s.C.C.c.StudentRestController [StudentRestController.java:61] This is error message
+18:33:26.009 [restartedMain] INFO  c.a.s.CRUD.CRUD_Spring.CrudSpringApplication - Starting CrudSpringApplication on Argusoft-PC with PID 14598 (/home/nihar/NetBeansProjects/com.argus.springboot.withangular/target/classes started by nihar in /home/nihar/NetBeansProjects/com.argus.springboot.withangular)
+18:33:26.010 [restartedMain] INFO  c.a.s.CRUD.CRUD_Spring.CrudSpringApplication - No active profile set, falling back to default profiles: default
+18:33:27.044 [restartedMain] INFO  c.a.s.CRUD.CRUD_Spring.CrudSpringApplication - Started CrudSpringApplication in 1.059 seconds (JVM running for 588.79)
+18:33:38.919 [http-nio-8080-exec-2] INFO  c.a.s.C.C.controller.StudentRestController - This is info message
+18:33:38.919 [http-nio-8080-exec-2] WARN  c.a.s.C.C.controller.StudentRestController - This is warn message
+18:33:38.919 [http-nio-8080-exec-2] ERROR c.a.s.C.C.controller.StudentRestController - This is error message
+18:33:49.972 [http-nio-8080-exec-3] INFO  c.a.s.C.C.controller.StudentRestController - This is info message
+18:33:49.972 [http-nio-8080-exec-3] WARN  c.a.s.C.C.controller.StudentRestController - This is warn message
+18:33:49.972 [http-nio-8080-exec-3] ERROR c.a.s.C.C.controller.StudentRestController - This is error message
+18:34:10.488 [restartedMain] INFO  c.a.s.CRUD.CRUD_Spring.CrudSpringApplication - Starting CrudSpringApplication on Argusoft-PC with PID 14883 (/home/nihar/NetBeansProjects/com.argus.springboot.withangular/target/classes started by nihar in /home/nihar/NetBeansProjects/com.argus.springboot.withangular)
+18:34:10.490 [restartedMain] INFO  c.a.s.CRUD.CRUD_Spring.CrudSpringApplication - No active profile set, falling back to default profiles: default
+18:34:14.658 [restartedMain] INFO  c.a.s.CRUD.CRUD_Spring.CrudSpringApplication - Started CrudSpringApplication in 4.558 seconds (JVM running for 4.955)
+18:34:31.652 [http-nio-8080-exec-2] INFO  c.a.s.C.C.controller.StudentRestController - This is info message
+18:34:31.652 [http-nio-8080-exec-2] WARN  c.a.s.C.C.controller.StudentRestController - This is warn message
+18:34:31.652 [http-nio-8080-exec-2] ERROR c.a.s.C.C.controller.StudentRestController - This is error message

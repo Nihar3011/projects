@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3"> <h2>Students</h2></div>
+
+ <div class="col-md-9">
+  <form class="navbar-form navbar-right" >
+      <label class="control-label" for="search">Serach:</label>
+      <div class="form-group">
+          <input class="form-control" type="text" name="search"  [(ngModel)]="filter">
+      </div>
+    </form></div>
+  </div>
+  <span *ngFor="let student of students | paginate: { itemsPerPage: 8, currentPage: p } | filter:filter; let i = index"   >
+          <app-showstudent [student]="student" (deleteData)="delete($event)"></app-showstudent>
+  </span>
+  <!--npm install ngx-pagination --save-->
+  <!--npm i ng2-search-filter --save-->
+  <h3><pagination-controls class="my-pagination" (pageChange)="p = $event"></pagination-controls></h3>
+</div>
+

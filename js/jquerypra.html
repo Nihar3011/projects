@@ -1,0 +1,52 @@
+<html>
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $("button").click(function () {
+                $.ajax({
+                    url: "http://localhost:3000/posts", success: function (result,status) {
+                       console.log(status);
+                      for(var post of result){
+                        $('<tr><td>'+post.id+'</td><td>'+post.title+'</td><td>'+post.author+'</td></tr>')
+                        .appendTo("#demo tbody");
+                      }
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="row justify-content-center mt-5">
+      
+    <button>Show</button>
+    </div>
+    <div  class="row justify-content-center mt-5">
+   <table id="demo" border='1'>
+    <thead>   
+    <tr>
+     <th>id</th>
+     <th>title</th>
+     <th>author</th>
+    </tr>
+    </thead>
+    <tbody>
+        </tbody>
+  </table>
+</div>
+
+   
+</body>
+
+</html>

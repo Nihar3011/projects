@@ -1,0 +1,21 @@
+<div class="container">
+  <h2>Students</h2>
+
+
+      <div class="row">
+        <div class="col-md-3">RollNo</div>
+        <div class="col-md-3">Name</div>
+        <div class="col-md-3">Gender</div>
+        <div class="col-md-3">Mobile</div>
+      </div>
+
+      <span *ngFor="let student of students;let i = index"  >
+        <br>
+        <app-directive [value]='student'></app-directive>
+      </span>
+      <span *ngFor="let student of students;let i = index"  >
+          <br>
+        <app-selecteddirective [name]="student.name" [rollno]="student.rollno"></app-selecteddirective>
+        </span>
+
+</div>

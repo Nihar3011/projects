@@ -1,0 +1,61 @@
+<html>
+<head>
+     
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+ <button type="button" id="show" onclick="loadData()">Show</button>
+  <button type="button" onclick="addData()">Add</button>
+ <br>
+ <br>
+ <form id="myForm" >
+ <input type="number" id="id" name="id" hidden="true"><br><br>
+  title: <input type="text" id="title" name="author"><br><br>
+  author: <input type="text" id="author" name="author"><br><br>
+  <input type="button" onclick="addData()" value="Submit form">
+  </form>
+
+   <table id="demo" border='1'>
+     <th>id</th>
+     <th>title</th>
+     <th>author</th>
+  </table>
+
+   <script>
+   function loadData() {
+    document.getElementById("demo").innerHTML ="<tr><th>Id </th><th>title</th><th>author</th> </tr>";
+    var a=1;
+     var xhttp = new XMLHttpRequest();
+     xhttp.onreadystatechange = function () {
+        if(xhttp.status==200  && a<2){
+          console.log(this.responseText);
+         var data = JSON.parse(this.responseText);
+         var getOlderInformation = document.getElementById("demo").innerHTML;
+         var dataToAppend = "";
+         for (var p of data) {
+           dataToAppend += "<tr><td>" + p.id + "</td>" + "<td>" + p.title + "</td>" + "<td>" + p.author + "</td> </tr>";
+         }
+        a=a+1;
+         document.getElementById("demo").innerHTML = getOlderInformation + dataToAppend;
+       }
+     };
+     xhttp.open("GET", "http://localhost:3000/posts",true);
+     xhttp.send();
+   }
+
+   function addData(){
+  var id = document.getElementById("id").value;
+  var author = document.getElementById("author").value;
+  var title = document.getElementById("title").value;
+    var xhttp = new XMLHttpRequest();
+    var theUrl = "http://localhost:3000/posts";
+    xhttp.open("POST", theUrl);
+    xhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    xhttp.send(JSON.stringify({ "id": id, "title":title,"author":author}));
+     setTimeout(function(){ document.getElementById("show").click()},200);
+   }
+ </script>
+</body>
+ 
+</html>

@@ -1,0 +1,75 @@
+<form [formGroup]="studentform"  (ngSubmit)="onSubmit()">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Add Student</h3>
+    </div>
+    <div class="panel-body">
+      <div class="from-group">
+        <div class="row">
+        <label class="col-sm-2 control-label" for="RollNo">RollNo</label>
+        <div class="col-md-5">
+          <input formControlName="rollno" id="rollno" name="rollno" type="text" class="from-control" [ngClass]="{ 'is-invalid': submitted && f.rollno.errors }" pattern="[0-9]{6,15}" autofocus required title="Must be a Number"/>
+          <div *ngIf="submitted && !!f.rollno.errors" class="invalid-feedback">
+            <div *ngIf="!!f.rollno.errors.required">RollNo is required</div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="from-group">
+      <div class="row">
+    <label class="col-sm-2 control-label" for="FullName">FirstName</label>
+    <div class="col-md-8">
+      <input formControlName="name" id="name" type="text" class="from-control" [ngClass]="{ 'is-invalid': submitted && f.name.errors }" required>
+      <div *ngIf="submitted && !!f.name.errors" class="invalid-feedback">
+        <div *ngIf="!!f.name.errors.required">LastName is required</div>
+    </div>
+    </div>
+  </div>
+</div>
+    <div class="from-group">
+      <div class="row">
+    <label class="col-sm-2 control-label" for="FullName">LastName</label>
+    <div class="col-md-8">
+      <input formControlName="name1" id="name1" type="text" class="from-control" [ngClass]="{ 'is-invalid': submitted && f.name1.errors }" required>
+      <div *ngIf="submitted && !!f.name1.errors" class="invalid-feedback">
+        <div *ngIf="!!f.name1.errors.required">LastName is required</div>
+    </div>
+    </div>
+  </div>
+</div>
+    <div class="from-group">
+        <div class="row">
+      <label class="col-sm-2 control-label" for="Gender">Gender</label>
+      <div class="col-md-8">
+          <label><input formControlName="gender" type="radio" value="male" [ngClass]="{ 'is-invalid': submitted && f.gender.errors }" required> Male</label>
+          &nbsp;
+          <label><input  formControlName="gender" type="radio" value="female" [ngClass]="{ 'is-invalid': submitted && f.gender.errors }" required > FeMale</label>
+          <div *ngIf="submitted && !!f.gender.errors" class="invalid-feedback">
+            <div *ngIf="!!f.gender.errors.required">Gender is required</div>
+        </div>
+        </div>
+    </div>
+  </div>
+  <div class="from-group">
+      <div class="row">
+    <label class="col-sm-2 control-label" for="Mobile"  >Mobile</label>
+    <div class="col-md-8">
+      <input formControlName="mobile" id="mobile" type="text" class="from-control" [ngClass]="{ 'is-invalid': submitted && f.mobile.errors }"   pattern="^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}$" autofocus required title="Must be a Number">
+      <div *ngIf="submitted && !!f.mobile.errors" class="invalid-feedback">
+        <div *ngIf="!!f.mobile.errors.required">Mobile is required</div>
+    </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="panel-footer">
+      <div *ngIf="this.id">
+          <button  class="btn btn-default" type="submit" >EDIT</button>
+      </div>
+      <div *ngIf="!this.id">
+    <button  class="btn btn-default" type="submit" >ADD</button>
+    </div>
+    </div>
+    </div>
+
+</form>
